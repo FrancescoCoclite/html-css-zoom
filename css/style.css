@@ -3,8 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+body{
     background-color: black;
-    height: 900px;
-    width: 100%;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+header button{
+    margin: 10px 5px;
+    padding: 5px;
 }
