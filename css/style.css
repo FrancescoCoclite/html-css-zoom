@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: darkgray;
     color: white;
 }
 header{
@@ -14,4 +14,26 @@ header{
 header button{
     margin: 10px 5px;
     padding: 5px;
+}
+.gallery{
+    display: flex;
+}
+.utente{
+    height: 150px;
+    width: calc(100% / 6);
+    border: 3px solid black;
+    position: relative;
+}
+.utente img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.utente span{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 7px;
 }
