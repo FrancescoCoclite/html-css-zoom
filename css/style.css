@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: darkgray;
+    background-color: black;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 header{
     display: flex;
@@ -18,18 +19,22 @@ header button{
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
+    overflow: auto;
+    height: 600px;
 }
 .utente{
     height: 150px;
     width: calc(100% / 6);
     border: 3px solid black;
     position: relative;
+    
 }
 .utente img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    
     
 }
 .utente span{
@@ -38,4 +43,16 @@ header button{
     bottom: 0;
     left: 0;
     padding: 7px;
+}
+.foot{
+    display: flex;
+    height: 100px;
+    background-color: gray;
+    justify-content: space-around;
+}
+.foot div{
+    margin-top: 20px;
+    background-color: red;
+    height: 60px;
+    width: 90px;
 }
