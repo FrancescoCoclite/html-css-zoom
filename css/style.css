@@ -17,6 +17,8 @@ header button{
 }
 .gallery{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .utente{
     height: 150px;
