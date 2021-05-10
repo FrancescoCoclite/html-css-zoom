@@ -11,6 +11,7 @@ body{
 header{
     display: flex;
     justify-content: flex-end;
+    height: 60px;
 }
 header button{
     margin: 10px 5px;
@@ -21,7 +22,7 @@ header button{
     flex-wrap: wrap;
     justify-content: center;
     overflow: auto;
-    height: 600px;
+    height: calc((100vh -60px)-100px)
 }
 .utente{
     height: 150px;
